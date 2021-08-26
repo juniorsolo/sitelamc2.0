@@ -1,0 +1,139 @@
+/*
+  CSS para mobile.
+*/
+@media screen and (max-width: 480px) {
+  .imageHeader{
+	  width: 80%!important;
+  }
+  .imageLogo{
+	width: 50%!important;
+    margin-left: 25%!important;
+  }
+  .backgroundImagemHome{
+	background-repeat: no-repeat;
+	background-size: 170% 100%!important;
+	height: 500px;
+  }
+  #videoBack{
+	bottom:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+	width:auto!important;
+	height:auto!important;
+	
+}
+  
+  .backgroundImagemQuemSomos{
+	background-repeat: no-repeat;
+	background-size: cover!important;
+	height: 900px!important;
+  }
+  .backgroundPasseio{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: auto!important;
+  }
+  .backgroundIntegrantes{
+	background-size: 180% 100%!important;
+	height:auto!important;
+  }
+   .backgroundFacaBem{
+	background-repeat: no-repeat;
+	background-size: 250% 100%!important;
+	height: auto!important;
+ }
+  .backgroundImagemHino{
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+}
+/*
+  CSS para outras telas.
+*/
+.map-container-5{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-container-5 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.center{
+	text-align:center;
+}
+.backgroundBlack{
+	background: black;
+}
+.backgroundTransparente{
+	background: url();
+}
+.backgroundImagemHome{	
+	background-repeat: no-repeat;
+	background-size: 100% 140%;
+}
+.backgroundImagemHistoria{	
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+
+}
+.backgroundVideoHome{
+  height:auto;
+  overflow:hidden;
+}
+#videoBack{
+	bottom:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+	width:100%;
+	height:100%;
+	
+}
+.backgroundImagemQuemSomos{	
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+	height:800px;
+
+}
+.backgroundPasseio{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 800px;
+}
+.backgroundIntegrantes{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 800px;
+ }
+ .backgroundFacaBem{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 700px;
+ }
+.backgroundImagemHino{	
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-size: cover;
+
+}
+.alertDefault{
+	margin-left: 1rem; 
+	margin-top: 2rem; 
+	margin-right: 1rem;
+}
+.modalBlack{
+	background: black;
+    color: white;;
+}
+.imageHeader{
+	  width: 38%;
+ }
+ .imageLogo{
+	width: 90%;
+ }
